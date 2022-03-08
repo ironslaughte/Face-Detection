@@ -27,6 +27,6 @@ cv2.circle(image,(keypoints['mouth_left']), 2, (0,155,255), 2)
 cv2.circle(image,(keypoints['mouth_right']), 2, (0,155,255), 2)
 '''
 
-cv2.imwrite("ManyPeople_draw2.jpg", cv2.cvtColor(image, cv2.COLOR_RGB2BGR))
+cv2.imwrite("ManyPeople_draw.jpg", cv2.cvtColor(image, cv2.COLOR_RGB2BGR))
 
 print(result)
